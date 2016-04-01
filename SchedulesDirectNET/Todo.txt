@@ -1,0 +1,4 @@
+//todo: log4net
+	//todo: Options
+
+		//todo: allow actual classes to be used as requests (rather than Ids)
