@@ -14,11 +14,11 @@ To keep it separate from this repository, I've setup an external file for the ap
 This is very much still a work in progress.
 Currently supported operations are:
 <ul>
-<li>Obtain a token [GET /token]</li>
-<li>Getting status [POST /status]</li>
-<li>List the lineups a user has added to their account [GET /lineups]</li>
-<li>StationID / channel mapping for a lineup [GET /lineups/{COUNTRY}-{LINEUP}-{DEVICE}]</li>
-<li>Download program information [POST /programs]</li>
+<li><a href="https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201#obtain-a-token">Obtain a token</a> [GET /token]</li>
+<li><a href="https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201#getting-status">Getting status</a> [POST /status]</li>
+<li><a href="https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201#list-the-lineups-a-user-has-added-to-their-account">List the lineups a user has added to their account</a> [GET /lineups]</li>
+<li><a href="https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201#stationid--channel-mapping-for-a-lineup">StationID / channel mapping for a lineup</a> [GET /lineups/{COUNTRY}-{LINEUP}-{DEVICE}]</li>
+<li><a href="https://github.com/SchedulesDirect/JSON-Service/wiki/API-20141201#download-program-information">Download program information</a> [POST /programs]</li>
 </ul>
 
 There is currently no error handling.
